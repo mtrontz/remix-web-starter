@@ -28,10 +28,13 @@ dd {
 
 /* Set core body defaults */
 body {
+  font-family: Helvetica, Arial, sans-serif;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -87,9 +90,77 @@ footer p {
   letter-spacing: -1px;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 50px;
+  max-width: 580px;
+  margin: auto;
+}
+/*  
 .container {
   display: flex;
   padding: 6vw 10vw;
   position: relative;
   max-width: 1160px;
 }
+
+.header {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  line-height: 1.5;
+  color: white;
+}
+
+.logo-svg {
+  font-size: 40vmin;
+  width: 40vmin;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.link {
+  color: #3651eb;
+  opacity: 0.8;
+  transition: ease-in;
+}
+.link:hover {
+  opacity: 1;
+  transition: ease-out;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  body {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  body {
+    animation: none;
+  }
+}
+*/

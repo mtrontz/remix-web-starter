@@ -18,7 +18,7 @@ export let headers: HeadersFunction = () => {
 
 export default function Index() {
   return (
-    <article className="container">
+    <article className="wrapper">
 
       <section className="hero">
         <h1>
